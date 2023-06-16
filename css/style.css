@@ -1,3 +1,7 @@
+:root {
+    --green: #06965C;
+}
+
 @keyframes move {
     from {
         margin-left: 0;
@@ -157,8 +161,8 @@ a {
 }
 
 .main_direct_button {
-    background: #06965C;
-    border: 1px solid #06965C;
+    background: var(--green);
+    border: 1px solid var(--green);
     border-radius: 5px;
     color: white;
 }
@@ -258,7 +262,7 @@ a {
 }
 
 .service_link:hover {
-    color: #06965C;
+    color: var(--green);
     text-decoration: underline;
 }
 
@@ -295,7 +299,7 @@ figcaption {
 }
 
 .main_locations-link:hover {
-    color: #06965C;
+    color: var(--green);
 }
 
 .main_tips_trips {
@@ -337,13 +341,13 @@ figcaption {
 
 .tips_button {
     margin-top: 20px;
-    color: #06965C;
+    color: var(--green);
     border: 1px solid black;
     cursor: pointer;
 }
 
 .tips_button:hover {
-    background-color: #06965C;
+    background-color: var(--green);
     color: white;
 }
 
@@ -352,7 +356,7 @@ figcaption {
 }
 
 .main_tips_trips-part-end-top {
-    color: #06965C;
+    color: var(--green);
     margin-bottom: 10px;
 }
 
@@ -375,7 +379,7 @@ figcaption {
 }
 
 .main_tips_trips-part-end-button:hover {
-    background-color: #06965C;
+    background-color: var(--green);
     color: white;
 }
 
@@ -422,7 +426,7 @@ figcaption {
 }
 
 .footer_part a:hover {
-    color: #06965C;
+    color: var(--green);
 }
 
 .foot_two {
